@@ -6,7 +6,5 @@ def isPalindrome(x):
     first = string[0: halfway]
     second = string[halfway: max_length]
     
-    if first == second[::-1] :
-        return True
-    return False
+    return True if first == second[::-1] else False
 
